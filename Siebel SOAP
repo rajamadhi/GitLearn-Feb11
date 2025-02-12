@@ -1,0 +1,11 @@
+🔹 Siebel CRM APIs (SOAP/REST)
+Customer Account Management API – Create, update, and retrieve customer accounts
+Subscription & Order API – Handle customer subscriptions and service orders
+Billing Profile API – Manage billing-related preferences for customers
+🔹 Oracle BRM APIs (Java, Web Services)
+Customer Management API – Create and manage customer accounts
+Billing & Invoicing API – Generate invoices, view billing history, and process payments
+Real-Time Charging API – Rate and charge for telecom services based on usage
+Payment Processing API – Handle online payments, refunds, and adjustments
+🔹 Oracle OSM APIs (SOAP/REST)
+Order Fulfillment API – Ensures successful order delivery before billing
