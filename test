@@ -1,0 +1,41 @@
+RODOD AABC APIs – Oracle Communications
+RODOD (Rapid Offer Design and Order Delivery) AABC (Automated Account and Billing Control) APIs are part of Oracle’s telecom solution, specifically focused on automating customer account management and billing processes. These APIs enable seamless integration between Siebel CRM, Oracle Order and Service Management (OSM), and Oracle Billing and Revenue Management (BRM) to enhance the Order-to-Cash (O2C) lifecycle.
+
+1️⃣ What is AABC in RODOD?
+AABC (Automated Account and Billing Control) ensures that customer accounts, subscriptions, and billing functions are efficiently managed within the RODOD framework. It automates:
+✅ Account Creation & Updates – Managing customer accounts in Siebel CRM and BRM
+ ✅ Billing & Invoicing – Automating customer billing in BRM
+ ✅ Order Charging & Payments – Integrating real-time charging and payment processing
+ ✅ Subscription Management – Activating, modifying, or deactivating telecom services
+
+2️⃣ Key RODOD AABC APIs
+🔹 Siebel CRM APIs (SOAP/REST)
+Customer Account Management API – Create, update, and retrieve customer accounts
+Subscription & Order API – Handle customer subscriptions and service orders
+Billing Profile API – Manage billing-related preferences for customers
+🔹 Oracle BRM APIs (Java, Web Services)
+Customer Management API – Create and manage customer accounts
+Billing & Invoicing API – Generate invoices, view billing history, and process payments
+Real-Time Charging API – Rate and charge for telecom services based on usage
+Payment Processing API – Handle online payments, refunds, and adjustments
+🔹 Oracle OSM APIs (SOAP/REST)
+Order Fulfillment API – Ensures successful order delivery before billing
+Billing Trigger API – Sends fulfillment status to BRM to trigger billing cycles
+
+3️⃣ Integration Flow: How AABC APIs Work in RODOD
+1️⃣ Customer places an order via Siebel CRM
+ 2️⃣ CRM triggers account creation in BRM using the Customer Management API
+ 3️⃣ OSM orchestrates order fulfillment (activating services, provisioning)
+ 4️⃣ BRM applies charges using the Real-Time Charging API
+ 5️⃣ Invoice is generated through the Billing & Invoicing API
+ 6️⃣ Payment processing is completed using the Payment API
+
+4️⃣ Technologies Used
+🔹 Oracle AIA (Application Integration Architecture) PIPs
+ 🔹 Oracle SOA Suite & BPEL (Middleware for integration)
+ 🔹 Web Services (SOAP/REST) & JMS Messaging
+ 🔹 Oracle BPM (Business Process Management) for automation
+
+5️⃣ Next Steps: Need API Documentation or Examples?
+Would you like detailed API references, sample request/response formats, or help with integration best practices? Let me know your use case, and I can guide you! 🚀
+
